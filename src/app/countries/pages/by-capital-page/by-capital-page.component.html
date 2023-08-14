@@ -1,0 +1,20 @@
+<div class="content-page">
+
+  <h1 class="title">Por Capital</h1>
+
+  <div class="search-group">
+    <!--? search box component -->
+    <shared-search-box
+      (onValue)="searchByCapital($event)"
+      placeholder="Buscar por Capital"
+    >
+    </shared-search-box>
+  </div>
+
+  <div class="search-resultados">
+    <hr class="separator">
+
+    <country-table [countries]="countries"></country-table>
+
+  </div>
+</div>

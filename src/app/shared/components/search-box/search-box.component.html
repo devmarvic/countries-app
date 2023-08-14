@@ -1,0 +1,11 @@
+<div class="search-box">
+  <input
+    type="text"
+    name="search-capital"
+    id="search-capital"
+    class="input-capital"
+    [placeholder]="placeholder"
+    (keyup.enter)="emitValue( txtSearchInput.value )"
+    #txtSearchInput
+    >
+</div>

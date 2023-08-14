@@ -1,0 +1,26 @@
+.content-page {
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+
+  @media screen and (min-width: 390px) {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .search-group {
+    margin-top: 1rem;
+  }
+
+  .search-resultados {
+    .separator {
+      color: #475569;
+    }
+  }
+
+}

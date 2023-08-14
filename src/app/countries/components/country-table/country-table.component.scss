@@ -1,0 +1,25 @@
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.alert-warning {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #eed999;
+}
+
+.img-svg-flag {
+  display: block;
+  width: 26px;
+  height: auto;
+}
+
+td {
+  vertical-align: middle;
+}
